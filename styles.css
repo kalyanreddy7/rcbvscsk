@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-image:url(https://png.pngtree.com/thumb_back/fw800/background/20231017/pngtree-icc-cricket-world-match-background-image_13943187.jpg);
+    background-size:cover;
+    color: rgb(174, 9, 225);
+}
+
+.controls {
+    margin-top: 50px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.display {
+    background: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.match-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    background-color: rgba(0,0,0,0.7);
+    height: 640px;
+    width: 960px;
+}
+
+#play, #reset {
+    background-color: rgb(232, 177, 13);
+    width: 220px;
+    color: rgb(255, 255, 255);
+    border: red;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+#play:hover, #reset:hover {
+    background-color: rgb(5, 59, 208);
+}
+
+#play:disabled {
+    background-color: grey;
+}
+
+#res {
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+}
+
+.runs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.csk-runs, .rcb-runs {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+#csk-img {
+    width: 400px;
+    height: 250px;
+}
+
+#score {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    align-self: center;
+}
+
+.teams {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 60px;
+}
